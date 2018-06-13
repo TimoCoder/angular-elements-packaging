@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'lib-fico-function',
@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
       fico-function works!
     </p>
   `,
-  styles: []
+  styles: [],
+  encapsulation:ViewEncapsulation.Native
 })
 export class FicoFunctionComponent implements OnInit {
 

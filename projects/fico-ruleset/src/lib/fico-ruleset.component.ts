@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'fico-ruleset',
@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
       fico-ruleset works!
     </p>
   `,
-  styles: []
+  styles: [],
+  encapsulation:ViewEncapsulation.Native
 })
 export class FicoRulesetComponent implements OnInit {
 

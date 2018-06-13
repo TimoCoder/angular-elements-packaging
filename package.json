@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "prodbuild": "ng build --prod --project fico-function-app --output-path dist/fico-function-app & ng build --prod --project fico-ruleset-app --output-path dist/fico-ruleset-app & gulp"
+    "buildlibs": "ng build --prod fico-function && ng build --prod fico-ruleset",
+    "buildelements": "ng build --prod --project fico-function-app --output-path dist/fico-function-app & ng build --prod --project fico-ruleset-app --output-path dist/fico-ruleset-app & gulp"
   },
   "private": false,
   "dependencies": {
