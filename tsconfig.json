@@ -15,6 +15,28 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ruleset": [
+        "dist/ruleset"
+      ],
+      "ruleset/*": [
+        "dist/ruleset/*"
+      ],
+      "fico-ruleset": [
+        "dist/fico-ruleset"
+      ],
+      "fico-ruleset/*": [
+        "dist/fico-ruleset/*"
+      ],
+      "fico-function": [
+        "dist/fico-function",
+        "dist/fico-function"
+      ],
+      "fico-function/*": [
+        "dist/fico-function/*",
+        "dist/fico-function/*"
+      ]
+    }
   }
 }
